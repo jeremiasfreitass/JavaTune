@@ -7,7 +7,7 @@ public class Favorites {
         }else if (audio.getClassification() == 7){
             System.out.println(audio.getTitle() + " está entre os mais curtidos!");
         }else {
-            System.out.println(audio.getTitle() + " não agradou o público! ");
+            System.out.println(audio.getTitle() + " não agradou o público!");
         }
     }
 }
